@@ -1,0 +1,136 @@
+const int const1 = 1;
+
+int var1;
+
+void noReturn_noret()
+{
+}
+
+void noReturn_ret()
+{
+    return;
+}
+
+int hasReturn_0para()
+{
+
+    return (1);
+}
+
+char hasReturn_1para(int para1)
+{
+
+    return ('a');
+}
+
+int hasReturn_2para(int para1, int para2)
+{
+
+    return (1);
+}
+
+void main()
+{
+    const int mainConst1 = 111;
+    const char mainConst2 = '2';
+    const int muchCons1 = 1, muchCons2 = 2;
+
+    int mainInt, intArray[10], intArrays[10][10];
+
+    char plus = '+';
+    char minus = '-';
+    char mult = '*';
+    char div = '/';
+
+    char mainChar2 = 'a';
+    int mainPlusInt = +1;
+    int mainDivInt = -1;
+    int mainIntInitialed = 1;
+    int intArrayInitialed[1] = {1};
+    int intArraysInitialed[1][1] = {{1}};
+    int i = 0;
+    int forAssign = 0;
+
+    while (2 < 1)
+    {
+    }
+    while (2 <= 1)
+    {
+    }
+    for (i = 0; i > 2; i = i + 1)
+    {
+    }
+    for (i = 0; i >= 2; i = i - 1)
+    {
+    }
+
+    if (1 != 1)
+        ;
+    if (1 == 1)
+    {
+        forAssign = 1;
+    }
+    else
+    {
+    }
+
+    hasReturn_0para();
+    hasReturn_1para(1);
+    hasReturn_2para(1, 1);
+
+    noReturn_noret();
+
+    mainInt = 1;
+    intArray[0] = 1;
+    intArrays[0][0] = 1;
+
+    forAssign = 1;
+    forAssign = +1;
+    forAssign = -1;
+
+    forAssign = 1;
+    forAssign = 1 + 1;
+
+    forAssign = i;
+    forAssign = intArray[0];
+    forAssign = intArrays[0][0];
+    forAssign = (1);
+    forAssign = 1;
+    forAssign = hasReturn_0para();
+
+    scanf(forAssign);
+
+    switch (i)
+    {
+    case 1:
+        forAssign = 1;
+    default:
+        forAssign = 1;
+    }
+
+    switch (i)
+    {
+    case 1:
+        forAssign = 1;
+    case 2:
+        forAssign = 1;
+
+    default:
+        forAssign = 1;
+    }
+
+    printf("18373441");
+    printf(18373441);
+    printf("1837", 3441);
+    printf("18373441");
+    printf("18373441");
+    printf("18373441");
+    printf("18373441");
+    printf("18373441");
+    printf("18373441");
+    printf("18373441");
+
+    forAssign = 1 + 1 - 1 * 1 + 1 / 1;
+
+    return;
+}

@@ -1,0 +1,13 @@
+void main(){
+    printf("18373441");
+    printf("18373441");
+    printf("18373441");
+    printf("18373441");
+    printf("18373441");
+    printf("18373441");
+    printf("18373441");
+    printf("18373441");
+    printf("18373441");
+    printf("18373441");
+    return;
+}
